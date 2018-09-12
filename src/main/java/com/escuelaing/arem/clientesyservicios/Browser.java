@@ -16,12 +16,12 @@ import java.net.URL;
 
 /**
  *
- * @author Jonathan Prieto
+ * @author jonnh
  */
 public class Browser {
 
     public static void createhtml(String url) throws MalformedURLException, IOException {
-        File archivo = new File("./resultado.html");
+        File archivo = new File("C:\\Users\\jonnh\\Documents\\NetBeansProjects\\clientesyservicios\\resultado.html");
         BufferedWriter bw = new BufferedWriter(new FileWriter(archivo));
         URL newUrl = new URL(url);
         try (BufferedReader reader

@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Jonathan Prieto
+ * @author 2103258
  */
 public class URLReader {
 
